@@ -38,6 +38,6 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
-console.log("API running at port 3000...");
+console.log("API is running at port 3000...");
 
 module.exports = app;
